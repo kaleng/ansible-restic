@@ -1,6 +1,7 @@
 ---
 - name: Default use-case scenario
   hosts: all
+  serial: 1
   any_errors_fatal: true
   roles:
     - ansible-restic
